@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Roboto+Mono:wght@400;700&display=swap');
 
+/* GENERAL STYLES */
+
 * {
     padding: 0;
     margin: 0;
@@ -11,4 +13,37 @@ body {
     font-weight: 500;
     background-color: #000;
     color: #d3d3d3;
+}
+
+.container {
+    width: 1082px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-items {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-items li {
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: inherit;
 }
