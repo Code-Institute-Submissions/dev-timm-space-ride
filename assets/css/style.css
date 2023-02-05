@@ -9,4 +9,6 @@
 body {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 500;
+    background-color: #000;
+    color: #d3d3d3;
 }
