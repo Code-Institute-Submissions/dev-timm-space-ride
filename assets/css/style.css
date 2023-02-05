@@ -20,6 +20,21 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-primary {
+    font-size: 0.875rem;
+    font-family: Orbitron, sans-serif;
+    height: 48px;
+    border-radius: 2px;
+    padding: 12px 20px;
+    color: #000;
+    background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
+}
+
 
 /* HEADER */
 
@@ -41,9 +56,4 @@ header {
 
 .nav-items li {
     list-style-type: none;
-}
-
-.nav-items a {
-    text-decoration: none;
-    color: inherit;
 }
