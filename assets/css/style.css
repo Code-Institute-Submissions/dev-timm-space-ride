@@ -20,11 +20,6 @@ body {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .button-primary {
     font-size: 0.875rem;
     font-family: Orbitron, sans-serif;
@@ -35,6 +30,19 @@ a {
     background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
 }
 
+h1 {
+    font-size: 4rem;
+    line-height: 3.2rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /* HEADER */
 
@@ -56,4 +64,34 @@ header {
 
 .nav-items li {
     list-style-type: none;
+}
+
+
+/* HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: url('../images/bg-hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero-content {
+    width: 50%;
+    font-family: Orbitron, sans-serif;
+    float: right;
+}
+
+.hero-content h1 {
+    background: -webkit-linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.hero-content h3 {
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
 }
