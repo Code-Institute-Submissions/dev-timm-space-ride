@@ -138,6 +138,8 @@ header {
     align-items: center;
     gap: 120px;
     padding: 200px 0;
+    background: url(../images/bg-what-awaits.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 .product-info .container {
