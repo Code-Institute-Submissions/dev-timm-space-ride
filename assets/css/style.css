@@ -158,3 +158,30 @@ header {
 .traveler-image {
     padding-right: 120px;
 }
+
+
+/* HOW IT WORKS */
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 200px 0;
+    background: url('../images/bg-how-it-works.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.how-it-works .container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.process-step {
+    text-align: center;
+}
+
+.process-step img {
+    padding-bottom: 24px;
+}
