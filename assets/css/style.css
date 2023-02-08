@@ -74,6 +74,10 @@ h4 {
     line-height: 1.75rem;
 }
 
+h5 {
+    font-size: 1.125rem;
+}
+
 p {
     font-size: 1.25rem;
     line-height: 150%;
@@ -184,4 +188,44 @@ header {
 
 .process-step img {
     padding-bottom: 24px;
+}
+
+
+/* CUSTOMER REVIEWS */
+
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    padding: 200px 0;
+    background: url('../images/bg-customer-reviews.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.review {
+    background: linear-gradient(187.32deg, rgba(21, 49, 103, 0.3) 5.78%, rgba(17, 46, 101, 0.3) 49.81%, rgba(9, 21, 51, 0.3) 96.73%);
+    padding: 32px 24px;
+    border-radius: 8px;
+    border: 1px solid #122A59;
+}
+
+.review-box {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.review p {
+    font-size: 1rem;
+    padding-top: 16px;
+}
+
+.review h5 {
+    padding-top: 16px;
+}
+
+.review hr {
+    border: 1px solid #122A59;
+    margin-top: 16px;
 }
