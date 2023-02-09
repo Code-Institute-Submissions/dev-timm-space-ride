@@ -55,6 +55,14 @@ body {
     background: rgba(0, 0, 0, .4);
 }
 
+input {
+    width: 400px;
+    padding: 12px 16px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #393939;
+    color: #FF8F27;
+}
+
 h1 {
     font-size: 4rem;
     line-height: 3.2rem;
@@ -228,4 +236,23 @@ header {
 .review hr {
     border: 1px solid #122A59;
     margin-top: 16px;
+}
+
+
+/* NEWSLETTER */
+
+.newsletter {
+    padding: 200px 0;
+    background: url('../images/bg-newsletter.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.newsletter h2 {
+    padding-bottom: 120px;
+}
+
+.newsletter .container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
