@@ -256,3 +256,21 @@ header {
     justify-content: center;
     gap: 8px;
 }
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    gap: 16px;
+}
