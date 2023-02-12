@@ -8,6 +8,10 @@
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto Mono", sans-serif;
     font-weight: 500;
@@ -132,7 +136,9 @@ a {
 /* HEADER */
 
 header {
-    background-color: #000;
+    position: fixed;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .9)
 }
 
 .navbar {
@@ -154,7 +160,7 @@ header {
 
 /* HERO */
 
-.hero {
+#hero {
     display: flex;
     align-items: center;
     height: 100vh;
@@ -184,7 +190,7 @@ header {
 
 /* What Awaits */
 
-.what-awaits {
+#what-awaits {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,7 +213,7 @@ header {
 
 /* HOW IT WORKS */
 
-.how-it-works {
+#how-it-works {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -217,7 +223,7 @@ header {
     background-size: cover;
 }
 
-.how-it-works .container {
+#how-it-works .container {
     display: flex;
     gap: 32px;
     align-items: center;
@@ -234,7 +240,7 @@ header {
 
 /* CUSTOMER REVIEWS */
 
-.customer-reviews {
+#customer-reviews {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -274,30 +280,30 @@ header {
 
 /* NEWSLETTER */
 
-.newsletter {
+#newsletter {
     padding: 200px 0;
     background: url('../images/bg-newsletter.jpg') no-repeat center center;
     background-size: cover;
 }
 
-.newsletter h2 {
+#newsletter h2 {
     padding-bottom: 120px;
 }
 
-.newsletter .container {
+#newsletter .container {
     display: flex;
     justify-content: center;
     gap: 8px;
 }
 
-.newsletter .form-submit {
+#newsletter .form-submit {
     width: fit-content;
 }
 
 
 /* REGISTER */
 
-.register {
+#register {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -307,7 +313,7 @@ header {
     background-size: cover;
 }
 
-.register .container {
+#register .container {
     display: flex;
     flex-direction: column;
     align-items: center;
