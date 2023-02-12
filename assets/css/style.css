@@ -201,6 +201,12 @@ header {
     list-style-type: none;
 }
 
+.nav-items a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #FF8F27;
+}
+
 
 /* HERO */
 
