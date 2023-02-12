@@ -47,6 +47,10 @@ body {
     background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
 }
 
+.button-primary:hover {
+    box-shadow: 0px 0px 18px rgba(215, 129, 0, 0.7);
+}
+
 .button-secondary {
     width: fit-content;
     display: inline-block;
@@ -60,6 +64,10 @@ body {
     padding: 16px 20px;
     color: #FF8F27;
     background: rgba(0, 0, 0, .4);
+}
+
+.button-secondary:hover {
+    box-shadow: 0px 0px 18px rgba(215, 129, 0, 0.7);
 }
 
 label {
@@ -94,6 +102,10 @@ select {
     padding: 16px 20px;
     color: #000;
     background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
+}
+
+.form-submit:hover {
+    box-shadow: 0px 0px 18px rgba(215, 129, 0, 0.7);
 }
 
 
