@@ -112,6 +112,18 @@ select:focus {
     outline: 1px solid #FF8F27;
 }
 
+fieldset legend {
+    font-size: 0.875rem;
+    padding-bottom: 8px;
+}
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
 .form-submit {
     width: 100%;
     font-size: 1rem;
@@ -357,6 +369,24 @@ header {
     gap: 8px;
     padding-bottom: 24px;
 }
+
+.planet-selection {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 24px;
+}
+
+.planet-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid #393939;
+    border-radius: 2px;
+}
+
 
 /* FOOTER */
 
