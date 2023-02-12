@@ -27,6 +27,9 @@ body {
     padding-bottom: 20px;
 }
 
+
+/* COMPONENTS */
+
 .button-primary {
     display: inline-block;
     height: 48px;
@@ -63,6 +66,29 @@ input {
     color: #FF8F27;
 }
 
+select {
+    width: 434px;
+    padding: 12px 16px;
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid #393939;
+    color: #FF8F27;
+}
+
+.form-submit {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1rem;
+    font-family: Orbitron, sans-serif;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 16px 20px;
+    color: #000;
+    background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
+}
+
+
+/* TEXT STYLES */
+
 h1 {
     font-size: 4rem;
     line-height: 3.2rem;
@@ -95,6 +121,7 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 
 /* HEADER */
 
@@ -257,6 +284,31 @@ header {
     gap: 8px;
 }
 
+
+/* REGISTER */
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 0;
+    background: url('../images/bg-register.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.register .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+}
 
 /* FOOTER */
 
