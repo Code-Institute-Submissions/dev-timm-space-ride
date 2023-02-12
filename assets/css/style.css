@@ -83,6 +83,18 @@ input {
     color: #FF8F27;
 }
 
+input::placeholder {
+    color: #909090;
+}
+
+input:hover {
+    box-shadow: 0px 0px 18px rgba(215, 129, 0, 0.7);
+}
+
+input:focus {
+    outline: 1px solid #FF8F27;
+}
+
 select {
     width: 434px;
     font-size: 1rem;
