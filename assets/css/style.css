@@ -58,8 +58,13 @@ body {
     background: rgba(0, 0, 0, .4);
 }
 
+label {
+    font-size: 0.875rem;
+}
+
 input {
     width: 400px;
+    font-size: 1rem;
     padding: 12px 16px;
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid #393939;
@@ -68,6 +73,7 @@ input {
 
 select {
     width: 434px;
+    font-size: 1rem;
     padding: 12px 16px;
     background: rgba(0, 0, 0, .5);
     border: 1px solid #393939;
@@ -282,6 +288,10 @@ header {
     display: flex;
     justify-content: center;
     gap: 8px;
+}
+
+.newsletter .form-submit {
+    width: fit-content;
 }
 
 
