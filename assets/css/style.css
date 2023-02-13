@@ -408,5 +408,34 @@ footer .container {
 
 .social-media {
     display: flex;
-    gap: 16px;
+    gap: 24px;
+}
+
+.social-logo-container {
+    height: 28px;
+    width: 28px;
+}
+
+.social-instagram {
+    background: url('../images/icon-instagram.svg') no-repeat center center;
+}
+
+.social-instagram:hover {
+    background: url('../images/icon-instagram-hover.svg') no-repeat center center;
+}
+
+.social-twitter {
+    background: url('../images/icon-twitter.svg') no-repeat center center;
+}
+
+.social-twitter:hover {
+    background: url('../images/icon-twitter-hover.svg') no-repeat center center;
+}
+
+.social-facebook {
+    background: url('../images/icon-facebook.svg') no-repeat center center;
+}
+
+.social-facebook:hover {
+    background: url('../images/icon-facebook-hover.svg') no-repeat center center;
 }
