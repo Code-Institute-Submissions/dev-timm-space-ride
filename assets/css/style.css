@@ -251,6 +251,12 @@ header {
     background-size: cover;
 }
 
+.product-info {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
 .product-info .container {
     display: flex;
     align-items: center;
