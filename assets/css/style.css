@@ -208,6 +208,10 @@ header {
     text-decoration-color: #FF8F27;
 }
 
+.nav-items .button-primary:hover {
+    text-decoration: none;
+}
+
 
 /* HERO */
 
