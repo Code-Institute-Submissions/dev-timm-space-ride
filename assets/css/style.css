@@ -24,6 +24,12 @@ body {
     margin: 0 auto;
 }
 
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .content-heading {
     display: flex;
     gap: 16px;
@@ -246,9 +252,6 @@ header {
 /* What Awaits */
 
 #what-awaits {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 120px;
     padding: 200px 0;
     background: url(../images/bg-what-awaits.jpg) no-repeat center center;
@@ -275,9 +278,6 @@ header {
 /* HOW IT WORKS */
 
 #how-it-works {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 120px;
     padding: 200px 0;
     background: url('../images/bg-how-it-works.jpg') no-repeat center center;
@@ -302,9 +302,6 @@ header {
 /* CUSTOMER REVIEWS */
 
 #customer-reviews {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 120px;
     padding: 200px 0;
     background: url('../images/bg-customer-reviews.jpg') no-repeat center center;
@@ -365,9 +362,6 @@ header {
 /* REGISTER */
 
 #register {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 80px;
     padding: 120px 0;
     background: url('../images/bg-register.jpg') no-repeat center center;
@@ -409,9 +403,6 @@ header {
 
 #register-confirmation {
     font-family: Orbitron, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 24px;
     padding: 350px 0;
     background: url('../images/bg-request-success.jpg') no-repeat center center;
@@ -423,9 +414,6 @@ header {
 
 #newsletter-confirmation {
     font-family: Orbitron, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 24px;
     padding: 350px 0;
     background: url('../images/bg-success-newsletter.jpg') no-repeat center center;
