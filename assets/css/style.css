@@ -226,9 +226,9 @@ header {
 #hero {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 84px);
     background: url('../images/bg-hero.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: auto 100%;
 }
 
 .hero-content {
@@ -257,7 +257,7 @@ header {
     gap: 120px;
     padding: 200px 0;
     background: url(../images/bg-what-awaits.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: auto 100%;
 }
 
 .product-info {
@@ -283,7 +283,7 @@ header {
     gap: 120px;
     padding: 200px 0;
     background: url('../images/bg-how-it-works.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: auto 100%;
 }
 
 #how-it-works .container {
@@ -307,7 +307,7 @@ header {
     gap: 120px;
     padding: 200px 0;
     background: url('../images/bg-customer-reviews.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: auto 100%;
 }
 
 .review {
@@ -343,7 +343,7 @@ header {
 #newsletter {
     padding: 200px 0;
     background: url('../images/bg-newsletter.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: cover
 }
 
 #newsletter h2 {
@@ -419,7 +419,7 @@ header {
     gap: 24px;
     padding: 350px 0;
     background: url('../images/bg-success-newsletter.jpg') no-repeat center center;
-    background-size: cover;
+    background-size: auto 100%;
 }
 
 
