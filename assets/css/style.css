@@ -17,6 +17,7 @@ body {
     font-weight: 500;
     background-color: #000;
     color: #d3d3d3;
+    padding-top: 84px;;
 }
 
 .container {
@@ -188,7 +189,8 @@ a {
 
 header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
+    top: 0;
     background-color: rgba(0, 0, 0, .9)
 }
 
