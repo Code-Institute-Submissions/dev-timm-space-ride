@@ -40,22 +40,22 @@
     <section id="register" class="flex-wrapper">
         <h2>Book a Flight</h2>
         <div class="container">
-            <form action="" method="post">
+            <form action="/register-confirmation.html" method="get">
                 <div class="register-item">
                     <label for="full-name">Full Name</label>
-                    <input type="text" id="full-name" name="full-name" placeholder="Enter full name">
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter full name" required>
                 </div>
                 <div class="register-item">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" placeholder="Enter email address">
+                    <input type="email" id="email" name="email" placeholder="Enter email address" required>
                 </div>
                 <div class="register-item">
                     <label for="phone">Phone Number</label>
-                    <input type="text" id="phone" name="phone" placeholder="Enter phone number">
+                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
                 </div>
                 <div class="register-item">
                     <label for="attendees">Number of Attendees</label>
-                    <select name="attendees" id="attendees" aria-placeholder="Add numger of attendees">
+                    <select name="attendees" id="attendees" required>
                         <option value="1">1 Person</option>
                         <option value="2">2 Persons</option>
                         <option value="3">3 Persons</option>
@@ -66,21 +66,12 @@
                 </div>
                 <fieldset class="planet-selection">
                     <legend>Planet to Visit</legend>
-                    <div class="planet-item">
-                        <input type="radio" name="planet" id="mars">
-                        <img src="assets/images/icon-planet-mars.svg" alt="icon of planet mars">
-                        <label for="mars">Mars</label>
-                    </div>
-                    <div class="planet-item">
-                        <input type="radio" name="planet" id="neptune">
-                        <img src="assets/images/icon-planet-neptune.svg" alt="icon of planet neptune">
-                        <label for="neptune">Neptune</label>
-                    </div>
-                    <div class="planet-item">
-                        <input type="radio" name="planet" id="mercury">
-                        <img src="assets/images/icon-planet-mercury.svg" alt="icon of planet mercury">
-                        <label for="mercury">Mercury</label>
-                    </div>
+                        <input type="radio" name="planet" value="mars" id="mars" class="planet-item" required>
+                        <label for="mars" class="planet-label"><img src="assets/images/icon-planet-mars.svg" alt="icon of planet mars">Mars</label>
+                        <input type="radio" name="planet" value="neptune" id="neptune" class="planet-item">
+                        <label for="neptune" class="planet-label"><img src="assets/images/icon-planet-neptune.svg" alt="icon of planet neptune">Neptune</label>
+                        <input type="radio" name="planet" value="mercury" id="mercury" class="planet-item">
+                        <label for="mercury" class="planet-label"><img src="assets/images/icon-planet-mercury.svg" alt="icon of planet mercury">Mercury</label>      
                 </fieldset>
                 <input type="submit" class="form-submit">
             </form>
