@@ -496,6 +496,12 @@ footer .container {
 
 @media screen and (max-width: 1010px) {
 
+    .hero-content {
+        float: none;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
     .product-info .container {
         display: flex;
         width: 80vw;
@@ -508,8 +514,21 @@ footer .container {
         flex-direction: column-reverse;
     }
 
+    .product-info {
+        text-align: center;
+    }
+
     .traveler-image {
         padding-right: 0;
+    }
+
+    .content-heading {
+        flex-direction: column;
+    }
+
+    #how-it-works .container {
+        flex-direction: column;
+        width: 70%;
     }
 
     /* solution that helped create mobile navigation using only html/css https://www.youtube.com/watch?v=oLgtucwjVII */
@@ -533,5 +552,8 @@ footer .container {
     #check:checked ~ .nav-items {
         left: 0;
     }
+}
+
+@media screen and (max-width: 1010px) {
 
 }
