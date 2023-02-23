@@ -270,6 +270,10 @@ header {
     gap: 140px;
 }
 
+.product-info img {
+    max-width: 100%;
+}
+
 .traveler-image {
     padding-right: 120px;
 }
@@ -554,6 +558,40 @@ footer .container {
     }
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 767px) {
+    
+    .review-box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 430px) {
+   
+    h1 {
+        font-size: 3rem;
+        line-height: 2.5rem;;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #newsletter .container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #newsletter input {
+        width: -webkit-fill-available;
+    }
+
+    #newsletter .form-submit {
+        width: -webkit-fill-available;
+    }
+
+    footer .container {
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
 
 }
