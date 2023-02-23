@@ -445,6 +445,7 @@ header {
     background-size: auto 100%;
 }
 
+
 /* FOOTER */
 
 footer {
@@ -564,6 +565,14 @@ footer .container {
     .review-box {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 560px) {
+   
+    h2 {
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 430px) {
