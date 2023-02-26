@@ -499,6 +499,12 @@ footer .container {
     .container {
         width: 90vw;
     }
+
+    .hero-content {
+        float: none;
+        width: fit-content;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 1010px) {
@@ -506,12 +512,6 @@ footer .container {
     .section-spacer {
         padding: 100px 0;
         gap: 100px;
-    }
-
-    .hero-content {
-        float: none;
-        width: fit-content;
-        margin: 0 auto;
     }
 
     .product-info .container {
