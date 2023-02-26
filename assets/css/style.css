@@ -233,6 +233,7 @@ header {
 .hero-content {
     width: 50%;
     float: right;
+    padding-bottom: 56px;
 }
 
 .hero-content h1 {
@@ -584,6 +585,10 @@ footer .container {
 
     h3 {
         font-size: 1.5rem;
+    }
+
+    #hero {
+        height: calc(60vh - 84px);
     }
 
     #newsletter .container {
