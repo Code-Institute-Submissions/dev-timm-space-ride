@@ -31,6 +31,11 @@ body {
     align-items: center;
 }
 
+.section-spacer {
+    padding: 200px 0;
+    gap: 120px;
+}
+
 .content-heading {
     display: flex;
     gap: 16px;
@@ -253,8 +258,6 @@ header {
 /* What Awaits */
 
 #what-awaits {
-    gap: 120px;
-    padding: 200px 0;
     background: url(../images/bg-what-awaits.jpg) no-repeat center center;
     background-size: auto 100%;
 }
@@ -283,8 +286,6 @@ header {
 /* HOW IT WORKS */
 
 #how-it-works {
-    gap: 120px;
-    padding: 200px 0;
     background: url('../images/bg-how-it-works.jpg') no-repeat center center;
     background-size: auto 100%;
 }
@@ -307,8 +308,6 @@ header {
 /* CUSTOMER REVIEWS */
 
 #customer-reviews {
-    gap: 120px;
-    padding: 200px 0;
     background: url('../images/bg-customer-reviews.jpg') no-repeat center center;
     background-size: auto 100%;
 }
@@ -344,7 +343,6 @@ header {
 /* NEWSLETTER */
 
 #newsletter {
-    padding: 200px 0;
     background: url('../images/bg-newsletter.jpg') no-repeat center center;
     background-size: cover
 }
@@ -503,6 +501,11 @@ footer .container {
 
 @media screen and (max-width: 1010px) {
 
+    .section-spacer {
+        padding: 100px 0;
+        gap: 100px;
+    }
+
     .hero-content {
         float: none;
         width: fit-content;
@@ -514,7 +517,7 @@ footer .container {
         width: 80vw;
         flex-direction: column;
         align-items: center;
-        gap: 140px;
+        gap: 80px;
     }
 
     .product-info .reverse-order {
