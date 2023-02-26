@@ -427,6 +427,7 @@ header {
     font-family: Orbitron, sans-serif;
     height: calc(100vh - 194px);
     justify-content: center;
+    text-align: center;
     gap: 24px;
     background: url('../images/bg-request-success.jpg') no-repeat center center;
     background-size: cover;
@@ -439,6 +440,7 @@ header {
     font-family: Orbitron, sans-serif;
     height: calc(100vh - 194px);
     justify-content: center;
+    text-align: center;
     gap: 24px;
     background: url('../images/bg-success-newsletter.jpg') no-repeat center center;
     background-size: auto 100%;
