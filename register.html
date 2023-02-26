@@ -19,6 +19,10 @@
             <a href="index.html">
                 <img src="assets/images/logo.svg" alt="Space Ride Logo">
             </a>
+            <!-- burger menu icon for mobile -->
+            <input type="checkbox" id="check">
+            <label for="check" id="burger-menu"><img src="assets/images/mobile-menu.svg" alt="mobile menu"></label>
+            <!-- burger menu icon for mobile -->
             <ul class="nav-items">
                 <li>
                     <a href="index.html#what-awaits">What Awaits</a>
@@ -40,7 +44,7 @@
     <section id="register" class="flex-wrapper">
         <h2>Book a Flight</h2>
         <div class="container">
-            <form action="register-confirmation.html" method="get"> 
+            <form action="register-confirmation.html" method="get">
                 <div class="register-item">
                     <label for="full-name">*Full Name</label>
                     <input type="text" id="full-name" name="full-name" placeholder="Enter full name" required>
@@ -66,12 +70,15 @@
                 </div>
                 <fieldset class="planet-selection">
                     <legend>*Planet to Visit</legend>
-                        <input type="radio" name="planet" value="mars" id="mars" class="planet-item" required>
-                        <label for="mars" class="planet-label"><img src="assets/images/icon-planet-mars.svg" alt="icon of planet mars">Mars</label>
-                        <input type="radio" name="planet" value="neptune" id="neptune" class="planet-item">
-                        <label for="neptune" class="planet-label"><img src="assets/images/icon-planet-neptune.svg" alt="icon of planet neptune">Neptune</label>
-                        <input type="radio" name="planet" value="mercury" id="mercury" class="planet-item">
-                        <label for="mercury" class="planet-label"><img src="assets/images/icon-planet-mercury.svg" alt="icon of planet mercury">Mercury</label>      
+                    <input type="radio" name="planet" value="mars" id="mars" class="planet-item" required>
+                    <label for="mars" class="planet-label"><img src="assets/images/icon-planet-mars.svg"
+                            alt="icon of planet mars">Mars</label>
+                    <input type="radio" name="planet" value="neptune" id="neptune" class="planet-item">
+                    <label for="neptune" class="planet-label"><img src="assets/images/icon-planet-neptune.svg"
+                            alt="icon of planet neptune">Neptune</label>
+                    <input type="radio" name="planet" value="mercury" id="mercury" class="planet-item">
+                    <label for="mercury" class="planet-label"><img src="assets/images/icon-planet-mercury.svg"
+                            alt="icon of planet mercury">Mercury</label>
                 </fieldset>
                 <input type="submit" class="form-submit">
             </form>
@@ -84,9 +91,15 @@
             <p>©SP4CER1DE 2023</p>
             <div class="social-media">
                 <p>Follow us on</p>
-                <a href="https://www.instagram.com/" target="_blank"><div class="social-instagram social-logo-container"></div></a>
-                <a href="https://twitter.com/" target="_blank"><div class="social-twitter social-logo-container"></div></a>
-                <a href="https://www.facebook.com/" target="_blank"><div class="social-facebook social-logo-container"></div></a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <div class="social-instagram social-logo-container"></div>
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <div class="social-twitter social-logo-container"></div>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <div class="social-facebook social-logo-container"></div>
+                </a>
             </div>
         </div>
     </footer>
