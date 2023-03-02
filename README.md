@@ -43,3 +43,40 @@ Like with the fonts, the colors provide a futuristic look and feel. They also hi
 
 #### Accessibility
 Colors have enough contrast and fonts are well readable to ensure the website is accessible even for users with impaired vision.
+
+## Features
+### Navigation Bar
+The navigation is fixed on the top and accessible from every page. By clicking on an navigation item on the homepage it will lead the user to the dedicated section with a smooth scrolling effect. Moreover, the navigation is responsive and will turn into a burger menu when a certain display size is reached.
+![Image that shows the navigation bar](assets/images/readme-images/navbar.png)
+
+### Hero
+The hero section contains a background image as well as the only h1 heading of the website. It also includes a CTA to help the user reach the registration page.
+![Image that shows the hero section](assets/images/readme-images/hero.png)
+
+### What Awaits
+The what awaits section contains a mix of text, image and icon. It is divided into sub-sections and it’s purpose is to communicate the value of the product.
+![Image that shows the what awaits section](assets/images/readme-images/what-awaits.png)
+
+### How It Works
+The how it works section is self explanatory as it explains the user the steps they have to go through for a successful application process. To make it more visual appealing each step has a individual icon.
+![Image that shows the how it works section](assets/images/readme-images/how-it-works.png)
+
+### Customer Reviews
+To proof the value of the product to website visitor it’s important to display reviews written by previous customers. Each review is shown in a separate box and shows the text, a star rating and the name of the author.
+![Image that shows the customer reviews section](assets/images/readme-images/customer-reviews.png)
+
+### Newsletter 
+The newsletter section lets visitors sign up for the company’s newsletter to receive new updates about the product. Clicking at the submit button will lead the visitors to a confirmation page.
+![Image that shows the newsletter section](assets/images/readme-images/newsletter.png)
+
+### Footer
+At the end of the website is the footer that contains the copyright and links to Spaces R1de’s social media accounts.
+![Image that shows the footer](assets/images/readme-images/footer.png)
+
+### Registration Page
+After clicking one of the CTAs, visitors land on the registration page. On this page visitors can fill out a form with their name, email, phone number, number of attendees and which planet they want to visit. Clicking at the submit button at the end of the form will lead the visitors to a confirmation page.
+![Image that shows the registration page](assets/images/readme-images/registration.png)
+
+### Confirmation Page
+The confirmation pages users see after submitting the registration form or newsletter serves as additional reassurance that the data was send successfully.
+![Image that shows ta confirmation page](assets/images/readme-images/confirmation.png)
