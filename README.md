@@ -138,4 +138,19 @@ The link to the deployed website of this project can be found [here](https://dev
 4. Click on the copy button next to the link to copy it
 5. Open your IDE
 6. Type ```git clone <copied URL>``` into the terminal
- 
+
+## Credits
+### Images & Icons
+- all images are taken from [unsplash.com](https://unsplash.com/)
+- all icons are taken from [streamlinehq.com](https://www.streamlinehq.com/) via paid subscription
+
+### Code
+Solutions that helped me with: 
+- [styling arrow for select tag](https://codepen.io/btn-ninja/pen/OJNrome)
+- styling radio buttons - [here](https://stackoverflow.com/questions/5112995/how-to-replace-radio-buttons-with-images) and [here](https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons) 
+- [creating mobile navigation using only html/css](https://www.youtube.com/watch?v=oLgtucwjVII)
+- [redirecting the user from the form to the confirmation page](https://stackoverflow.com/questions/3303675/how-to-make-an-input-type-button-act-like-a-hyperlink-and-redirect-using-a-get-r)
+
+### Thank You
+- to my mentor Dick for supporting me with his feedback through the entire project
+- to my love Valentina for making sure I always get the time and anything else I need for working on this course and projects
