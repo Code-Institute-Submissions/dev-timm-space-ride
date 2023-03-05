@@ -1,9 +1,11 @@
 # SPACE R1DE
-Welcome to SpaceR1de, the product that helps you make your dreams come true and send you to space. 
+Welcome to SPACE R1DE, the product that helps you make your dreams come true and send you to space. 
 
-SpaceR1de was built to address the longing of people who want to travel beyond our planet and discover new places in our universe. After the successful registration process customers have the option to select between 3 different planets to travel. 
+SPACE R1DE was built to address the longing of people who want to travel beyond our planet and discover new places in our universe. During the registration process, customers have the option to choose among 3 different planets to travel to.
 
-![An Image previewing all devices](assets/images/readme-images/device-preview.jpg)
+[Link to the website](https://dev-timm.github.io/space-ride/)
+
+![An image previewing all devices](assets/images/readme-images/device-preview.jpg)
 
 ## Product Decisions 
 
@@ -73,7 +75,7 @@ The newsletter section lets visitors sign up for the company’s newsletter to r
 ![Image that shows the newsletter section](assets/images/readme-images/newsletter.png)
 
 ### Footer
-At the end of the website is the footer that contains the copyright and links to Spaces R1de’s social media accounts.
+At the end of the website is the footer that contains the copyright and links to SPACE R1DE’s social media accounts.
 ![Image that shows the footer](assets/images/readme-images/footer.png)
 
 ### Registration Page
