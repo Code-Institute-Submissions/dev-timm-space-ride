@@ -80,3 +80,41 @@ After clicking one of the CTAs, visitors land on the registration page. On this 
 ### Confirmation Page
 The confirmation pages users see after submitting the registration form or newsletter serves as additional reassurance that the data was send successfully.
 ![Image that shows ta confirmation page](assets/images/readme-images/confirmation.png)
+
+## Testing 
+All pages where tested with the [Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and no errors were found.
+
+### Lighthouse
+The deployed website was also tested with Google Chrome's Lighhouse feature and all scores have been above 90 for both mobile and desktop.
+#### Desktop
+![Image that shows the lighthouse resuts for desktop](assets/images/readme-images/lighthouse-desktop.jpg)
+#### Mobile
+![Image that shows the lighthouse resuts for mobile](assets/images/readme-images/lighthouse-mobile.jpg)
+
+### Tested Devices with Browsers
+- iPhone 11
+    - Safari
+- Macbook Pro 2019 16-inch
+    - Chrome
+    - Safari
+    - Firefox
+- iPad (5th generation)
+    - Safari
+
+### Feature Testing
+| Feature | Expected Behaviour | Pass/Fail
+| --- | --- | --- |
+| Nav Bar | Clicking any nav item leads user to corresponding section/page | Pass
+| Nav Bar | Nav Bar shows burger menu for tablet and mobile  | Pass
+| Homepage CTAs | CTAs lead to registration page | Pass
+| Newsletter Form | Form field only accepts email inputs | Pass
+| Newsletter Form | Clicking submit leads user to confirmation page | Pass
+| Registration Form | All form fields require an input before being submitted | Pass
+| Registration Form | Email form field shows error when no email format is used as input | Pass
+| Registration Form | Only one planet as destination can be selected | Pass
+| Registration Form | Clicking submit leads user to confirmation page | Pass
+| Confirmation Pages | Confirmation pages include a button that leads user back to the homepage | Pass
+| Footer | Social media icon lead the user to corresponding pages | Pass
+
+### Unfixed Bugs
+At the time of testing there were no bugs found.
