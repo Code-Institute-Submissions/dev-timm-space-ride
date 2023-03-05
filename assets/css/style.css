@@ -125,6 +125,7 @@ select {
     background-repeat: no-repeat;
     background-position: right center; 
     background-position: calc(100% - 16px) center; 
+    cursor:pointer;
 }
 
 select:hover {
@@ -151,6 +152,7 @@ fieldset legend {
     padding: 16px 20px;
     color: #000;
     background: linear-gradient(95.59deg, #FF8F27 12.01%, #BC5A00 96.6%);
+    cursor:pointer;
 }
 
 .form-submit:hover {
@@ -425,6 +427,7 @@ header {
     background: rgba(0, 0, 0, .5);
     border: 1px solid #393939;
     border-radius: 2px;
+    cursor:pointer;
 }
 
 .planet-item:hover + label {
