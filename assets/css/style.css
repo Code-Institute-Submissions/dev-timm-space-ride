@@ -43,6 +43,7 @@ body {
     padding-bottom: 20px;
 }
 
+/* GENERAL STYLES */
 
 /* COMPONENTS */
 
@@ -156,6 +157,7 @@ fieldset legend {
     box-shadow: 0px 0px 18px rgba(215, 129, 0, 0.7);
 }
 
+/* COMPONENTS */
 
 /* TEXT STYLES */
 
@@ -195,6 +197,7 @@ a {
     color: inherit;
 }
 
+/* TEXT STYLES */
 
 /* HEADER */
 
@@ -235,6 +238,7 @@ header {
     display: none;
 }
 
+/* HEADER */
 
 /* HERO */
 
@@ -265,8 +269,9 @@ header {
     margin-bottom: 0.5rem;
 }
 
+/* HERO */
 
-/* What Awaits */
+/* WHAT AWAITS */
 
 #what-awaits {
     background: url(../images/bg-what-awaits.jpg) no-repeat center center;
@@ -292,6 +297,7 @@ header {
     padding-right: 120px;
 }
 
+/* WHAT AWAITS */
 
 /* HOW IT WORKS */
 
@@ -313,6 +319,7 @@ header {
     padding-bottom: 24px;
 }
 
+/* HOW IT WORKS */
 
 /* CUSTOMER REVIEWS */
 
@@ -347,6 +354,7 @@ header {
     margin-top: 16px;
 }
 
+/* CUSTOMER REVIEWS */
 
 /* NEWSLETTER */
 
@@ -369,6 +377,7 @@ header {
     width: fit-content;
 }
 
+/* NEWSLETTER */
 
 /* REGISTER */
 
@@ -428,6 +437,7 @@ header {
     background: rgba(255, 143, 39, .1);
 }
 
+/* REGISTER */
 
 /* REGISTER-CONFIRMATION */
 
@@ -441,6 +451,7 @@ header {
     background-size: cover;
 }
 
+/* REGISTER-CONFIRMATION */
 
 /* NEWSLETTER-CONFIRMATION */
 
@@ -454,6 +465,7 @@ header {
     background-size: auto 100%;
 }
 
+/* NEWSLETTER-CONFIRMATION */
 
 /* FOOTER */
 
@@ -501,6 +513,9 @@ footer .container {
     background: url('../images/icon-facebook-hover.svg') no-repeat center center;
 }
 
+/* FOOTER */
+
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 1110px) {
 
@@ -637,3 +652,5 @@ footer .container {
     }
 
 }
+
+/* MEDIA QUERIES */
