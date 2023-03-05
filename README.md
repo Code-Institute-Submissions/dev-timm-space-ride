@@ -17,17 +17,17 @@ As a company...
 - we want to make it as easy as possible for potential customers to get in touch with us.
 - we want to increase the stickiness of our product so that we ensure the retention of our customers base.
 
-### MVP
-For the first MVP version it was important to have an easy to navigate website which efficiently conveys key information. Moreover, the travel registration process is in the form of an application instead of booking the flight immediately to ensure the safety of all passengers. For all of those that aren't ready to book a flight with SPACE R1DE there is a newsletter subscription option which helps both website visitors and the company to stay in touch.
-
-## Design Decisions
-
 ### User Needs
 As a space enthusiast I want to... 
 - experience visiting other planets first hand so that I fulfil my childhood dreams.
-- know what others say about their experience with space travel so that I can choose the best provider for my journey
+- know what others say about their experience with space travel so that I can choose the best provider for my journey.
 - know more about the process it would take to schedule a flight into space.
 - be the first to know about space travelling and other related topics or news.
+
+### MVP
+For the first MVP version it was important to have an easy to navigate website which efficiently conveys key information. Moreover, the travel registration process is in the form of an application instead of booking the flight immediately to ensure the safety of all passengers. For all of those that aren't ready to book a flight with SPACE R1DE yet there is a newsletter subscription option which helps both website visitors and the company to stay in touch. In addition, there are reviews from previous customers sharing their experience with SPACE R1DE to encourage website visitors towards the application process.
+
+## Design Decisions
 
 ### Design Process
 To determine the best information architecture, it was important to first build low-fi wireframes. A crucial step for this was to make sure to only focus on the information that needs to be conveyed and leave out and visual decsions. After that was done the low-fi wireframes could be turned into hi-fi wireframes including all visual details. 
