@@ -42,6 +42,7 @@ The fonts used for the website are “Orbitron” and “Roboto Mono”. Both fo
 
 #### Colors
 Like with the fonts, the colors provide a futuristic look and feel. They also highlight important actions e.g. CTAs as well as interactive elements such as input fields.
+![Image that shows the color palette used inside the app](assets/images/readme-images/color-palette.png)
 
 #### Accessibility
 Colors have enough contrast and fonts are well readable to ensure the website is accessible even for users with impaired vision.
