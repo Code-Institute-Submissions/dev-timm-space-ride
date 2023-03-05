@@ -32,6 +32,8 @@ To determine the best information architecture, it was important to first build 
 
 ![Image that shows the low fidelity and high fidelity wireframe](assets/images/readme-images/wireframes.png)
 
+All wireframe can be found [here](https://github.com/dev-timm/space-ride/tree/main/assets/images/readme-images/wireframes)
+
 ### Visual Design
 One key focus of the website is to build up excitement for space travel the moment the user enters the homepage. The experience should feel familiar by providing a sci-fi theme.
 
