@@ -270,7 +270,6 @@ header {
 
 #what-awaits {
     background: url(../images/bg-what-awaits.jpg) no-repeat center center;
-    background-size: auto 100%;
 }
 
 .product-info {
@@ -298,7 +297,6 @@ header {
 
 #how-it-works {
     background: url('../images/bg-how-it-works.jpg') no-repeat center center;
-    background-size: auto 100%;
 }
 
 #how-it-works .container {
@@ -320,7 +318,6 @@ header {
 
 #customer-reviews {
     background: url('../images/bg-customer-reviews.jpg') no-repeat center center;
-    background-size: auto 100%;
 }
 
 .review {
