@@ -18,7 +18,7 @@ As a company...
 - we want to increase the stickiness of our product so that we ensure the retention of our customers base.
 
 ### MVP
-For the first MVP it was important to have an easy to navigate website which efficiently conveys key information. 
+For the first MVP version it was important to have an easy to navigate website which efficiently conveys key information. Moreover, the travel registration process is in the form of an application instead of booking the flight immediately to ensure the safety of all passengers. For all of those that aren't ready to book a flight with SPACE R1DE there is a newsletter subscription option which helps both website visitors and the company to stay in touch.
 
 ## Design Decisions
 
