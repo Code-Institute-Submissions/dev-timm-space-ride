@@ -107,22 +107,36 @@ The deployed website was also tested with Google Chrome's Lighhouse feature and 
     - Safari
 
 ### Feature Testing
-| Feature | Expected Behaviour | Pass/Fail
-| --- | --- | --- |
-| Nav Bar | Clicking any nav item leads user to corresponding section/page | Pass
-| Nav Bar | Nav Bar shows burger menu for tablet and mobile  | Pass
-| Homepage CTAs | CTAs lead to registration page | Pass
-| Newsletter Form | Form field only accepts email inputs | Pass
-| Newsletter Form | Clicking submit leads user to confirmation page | Pass
-| Registration Form | All form fields require an input before being submitted | Pass
-| Registration Form | Email form field shows error when no email format is used as input | Pass
-| Registration Form | Only one planet as destination can be selected | Pass
-| Registration Form | Clicking submit leads user to confirmation page | Pass
-| Confirmation Pages | Confirmation pages include a button that leads user back to the homepage | Pass
-| Footer | Social media icon lead the user to corresponding pages | Pass
+| Feature | Action | Expected Behaviour | Pass/Fail
+| --- | --- | --- | --- |
+| Nav Bar | Click on logo | Opens homepage | Pass
+| Nav Bar | Click on "What Awaits" link | scrolls down to "What Awaits" section | Pass
+| Nav Bar | Click on "How It Works" link | scrolls down to "How It Works" section | Pass
+| Nav Bar | Click on "Space Travelers Say" link | scrolls down to "Space Travelers Say" section | Pass
+| Nav Bar | Click on "book your flight" button | Opens registration page | Pass
+| Nav Bar | Reduce width of website to tablet size | Shows burger menu | Pass
+| Nav Bar | Click on burger menu | Shows all navigation items | Pass
+| Nav Bar | Click on burger menu when open | Closes navigation | Pass
+| Hero | Click on "start your travel" button | Opens registration page | Pass
+| What Awaits | Click on "get in contact" button | Opens registration page | Pass
+| How It Works | Click on "send your application" button | Opens registration page | Pass
+| Space Travelers Say | Click on "become a traveler" button | Opens registration page | Pass
+| Newsletter | Add text which is not email format into the input field and click "join newsletter" button | Input field shows alert that text has to be in email format | Pass
+| Newsletter | Add email address into the input field and click "join newsletter" button | Opens confirmation page | Pass
+| Newsletter confirmation | Click on "travel back" button | Opens homepage | Pass
+| Registration | Click on "submit" button | "Full Name" input field shows alert to fill in text | Pass
+| Registration | Fill in "Full Name" and click on "submit" button | "Email Address" input field shows alert to fill in text | Pass
+| Registration | Add text which is not email format and click submit button | Input field shows alert that text has to be in email format | Pass
+| Registration | Add email address into the input field and click submit button | "Phone Number" input field shows alert to fill in text | Pass
+| Registration | Fill in "Phone Number" and click on "submit" button | "Planet to Visit" radio buttons show alert to select one option | Fail
+| Registration | Select one of the radio options and click submit button | Opens confirmation page | Pass
+| Registration confirmation | Click on "travel back" button | Opens homepage | Pass
+| Footer | Click on instagram icon | Opens instagram website in new tab | Pass
+| Footer | Click on twitter icon | Opens twitter website in new tab | Pass
+| Footer | Click on facebook icon | Opens facebook website in new tab | Pass
 
 ### Unfixed Bugs
-At the time of testing there were no bugs found.
+Currently there is no visible alert when a user wants to submit the registration form without selecting one of the radio options first.
 
 ## Deployment
 ### Deploying the website to GitHub Pages:
