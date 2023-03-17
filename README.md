@@ -10,12 +10,12 @@ SPACE R1DE was built to address the longing of people who want to travel beyond 
 ## Product Decisions 
 
 ### Business Needs
-As a company...
-- we want to be one of the first businesses that offer private space travel so that we can be ahead of the competition early on.
-- we want to appeal to our target audience from the very first page visit to make them excited about the product we are offering.
-- we want to make sure our product is secure so that our staff and customers feel safe far away from home.
-- we want to make it as easy as possible for potential customers to get in touch with us.
-- we want to increase the stickiness of our product so that we ensure the retention of our customers base.
+As a company we want to...
+- be one of the first businesses that offer private space travel so that we can be ahead of the competition early on.
+- appeal to our target audience from the very first page visit to make them excited about the product we are offering.
+- make sure our product is secure so that our staff and customers feel safe far away from home.
+- make it as easy as possible for potential customers to get in touch with us.
+- increase the stickiness of our product so that we ensure the retention of our customers base.
 
 ### User Needs
 As a space enthusiast I want to... 
@@ -25,7 +25,7 @@ As a space enthusiast I want to...
 - be the first to know about space travelling and other related topics or news.
 
 ### MVP
-For the first MVP version it was important to have an easy to navigate website which efficiently conveys key information. Moreover, the travel registration process is in the form of an application instead of booking the flight immediately to ensure the safety of all passengers. For all of those that aren't ready to book a flight with SPACE R1DE yet there is a newsletter subscription option which helps both website visitors and the company to stay in touch. In addition, there are reviews from previous customers sharing their experience with SPACE R1DE to encourage website visitors towards the application process.
+For the first MVP version it was important to have an easy-to-navigate website which efficiently conveys key information. Moreover, the travel registration process is in the form of an application instead of booking the flight immediately to ensure the safety of all passengers. For all of those that aren't ready to book a flight with SPACE R1DE yet there is a newsletter subscription option which helps both website visitors and the company to stay in touch. In addition, there are reviews from previous customers sharing their experience with SPACE R1DE to encourage website visitors towards the application process.
 
 ## Design Decisions
 
