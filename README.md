@@ -158,23 +158,24 @@ Currently there is no visible error message when a user wants to submit the regi
 
 ## Deployment
 ### Deploying the website to GitHub Pages:
-1. Visit the GitHub page of the website’s repository
-2. Click on “Settings”
-3. Click on “Pages” inside the left sidebar
-4. Make sure “Deploy from a branch” is selected under the "Source" section
-5. Change branch from “None” to “main”
-6. Click on the "Save" button
-7. If everything's done right, in less than a minute a banner should appear on top of the same page containing the website's link (which is now hosted on GitHub Pages)
+1. Visit the GitHub page of the website’s repository.
+2. Click on “Settings”.
+3. Click on “Pages” inside the left sidebar.
+4. Make sure “Deploy from a branch” is selected under the "Source" section.
+5. Change branch from “None” to “main”.
+6. Click on the "Save" button.
+7. If everything's done right, in less than a minute a banner should appear on top of the same page containing the website's link (which is now hosted on GitHub Pages).
 
-The link to the deployed website of this project can be found [here](https://dev-timm.github.io/space-ride/)
+The link to the deployed website of this project can be found [here.](https://dev-timm.github.io/space-ride/)
 
 ### Cloning the repository
-1. Visit the GitHub page of the website’s repository
-2. Click the “Clone” button on top of the page
-3. Click on “HTTPS”
-4. Click on the copy button next to the link to copy it
-5. Open your IDE
-6. Type ```git clone <copied URL>``` into the terminal
+1. Visit the GitHub page of the website’s repository.
+2. Click the “Clone” button on top of the page.
+3. Click on “HTTPS”.
+4. Click on the copy button next to the link to copy it.
+5. Open your IDE.
+6. Type ```git clone <copied URL>``` into the terminal.
+7. If everything done right, you should now see a cloned repository in your IDE.
 
 ## Credits
 ### Images & Icons
