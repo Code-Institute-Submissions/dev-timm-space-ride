@@ -30,24 +30,26 @@ For the first MVP version it was important to have an easy-to-navigate website w
 ## Design Decisions
 
 ### Design Process
-To determine the best information architecture, it was important to build low-fi wireframes first. A crucial step for this was to make sure to only focus on the information that needs to be conveyed and leave out any visual/branding characteristics. After preparing the low-fi wireframes, they were developed into hi-fi wireframes including all visual details. 
+To determine the best information architecture, it was important to build low-fi wireframes first. During this step it was crucial to focus only on the information that needs to be conveyed and leave out any visual/branding characteristics. 
+
+After preparing the low-fi wireframes, they were developed into hi-fi wireframes including all visual details. 
 
 ![Image that shows the low fidelity and high fidelity wireframe](assets/images/readme-images/wireframes.png)
 
-All wireframe can be found [here](https://github.com/dev-timm/space-ride/tree/main/assets/images/readme-images/wireframes)
+All wireframes can be found [here](https://github.com/dev-timm/space-ride/tree/main/assets/images/readme-images/wireframes)
 
 ### Visual Design
-One key focus of the website is to build up excitement for space travel the moment the user enters the homepage. The experience should feel familiar by providing a sci-fi theme.
+One of the key purposes of the website is to build up excitement for space travel the moment the user visits the homepage. The sci-fi design theme makes the website more intriguing to the visitor.
 
 #### Fonts
-The fonts used for the website are “Orbitron” and “Roboto Mono”. Both fonts have a very technical and futuristic look and feel which make them a perfect choice for a space travel product.
+The fonts used for the website are [“Orbitron”](https://fonts.google.com/specimen/Orbitron?query=orbitron) and [“Roboto Mono”](https://fonts.google.com/specimen/Roboto+Mono?query=roboto+mono). Both fonts have a very technical and futuristic look and feel, which make them a perfect choice for a space travel product.
 
 #### Colors
-Like with the fonts, the colors provide a futuristic look and feel. The colors are also used to highlight important actions, e.g. CTAs.
+Like with the fonts, the colors provide a futuristic look and feel. They are also used to highlight important actions, e.g. buttons.
 ![Image that shows the color palette used inside the app](assets/images/readme-images/color-palette.png)
 
 #### Accessibility
-Colors have enough contrast and fonts are well readable to ensure the website is accessible even for users with impaired vision.
+The color palette has sufficient contrast and the fonts are well readable which ensures the website is accessible even to the visitors with impaired vision.
 
 ## Features
 ### Navigation Bar
