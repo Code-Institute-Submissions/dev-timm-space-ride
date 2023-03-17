@@ -103,16 +103,18 @@ After submitting the registration form or subscribing to a newsletter, users are
 ![Image that shows newsletter confirmation page](assets/images/readme-images/confirmation-newsletter.png)
 
 ## Testing 
-All pages where tested with the [Markup Validation Service](https://validator.w3.org/) and [CSS Validation Service](https://jigsaw.w3.org/css-validator/) and no errors were found.
+All webpages were tested with the [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) and no errors were found.
 
 ### Lighthouse
-The deployed website was also tested with Google Chrome's Lighhouse feature and all scores have been above 90 for both mobile and desktop.
-#### Desktop
+Each page of the deployed website has been tested multiple times with Google Chrome's Lighhouse feature to ensure all scores have been above 90 for both mobile and desktop devices.
+
+Desktop
 ![Image that shows the lighthouse resuts for desktop](assets/images/readme-images/lighthouse-desktop.jpg)
-#### Mobile
+
+Mobile
 ![Image that shows the lighthouse resuts for mobile](assets/images/readme-images/lighthouse-mobile.jpg)
 
-### Tested Devices with Browsers
+### Tested Devices and Browsers
 - iPhone 11
     - Safari
 - Macbook Pro 2019 16-inch
@@ -125,34 +127,34 @@ The deployed website was also tested with Google Chrome's Lighhouse feature and 
 ### Feature Testing
 | Feature | Action | Expected Behaviour | Pass/Fail
 | --- | --- | --- | --- |
-| Nav Bar | Click on logo | Opens homepage | Pass
-| Nav Bar | Click on "What Awaits" link | scrolls down to "What Awaits" section | Pass
-| Nav Bar | Click on "How It Works" link | scrolls down to "How It Works" section | Pass
-| Nav Bar | Click on "Space Travelers Say" link | scrolls down to "Space Travelers Say" section | Pass
-| Nav Bar | Click on "book your flight" button | Opens registration page | Pass
-| Nav Bar | Reduce width of website to tablet size | Shows burger menu | Pass
-| Nav Bar | Click on burger menu | Shows all navigation items | Pass
-| Nav Bar | Click on burger menu when open | Closes navigation | Pass
+| Navbar | Click on logo | Opens homepage | Pass
+| Navbar | Click on "What Awaits" link | Scrolls down to "What Awaits" section on homepage| Pass
+| Navbar | Click on "How It Works" link | Scrolls down to "How It Works" section on homepage | Pass
+| Navbar | Click on "Space Travelers Say" link | Scrolls down to "Space Travelers Say" section on homepage | Pass
+| Navbar | Click on "book your flight" button | Opens registration page | Pass
+| Navbar | Reduce width of website to tablet size | Shows burger menu | Pass
+| Navbar | Click on burger menu | Shows all navigation items | Pass
+| Navbar | Click on burger menu when nav items are displayed | Closes navigation | Pass
 | Hero | Click on "start your travel" button | Opens registration page | Pass
 | What Awaits | Click on "get in contact" button | Opens registration page | Pass
 | How It Works | Click on "send your application" button | Opens registration page | Pass
 | Space Travelers Say | Click on "become a traveler" button | Opens registration page | Pass
-| Newsletter | Add text which is not email format into the input field and click "join newsletter" button | Input field shows alert that text has to be in email format | Pass
+| Newsletter | Add text which is not email format into the input field and click "join newsletter" button | Input field shows error message | Pass
 | Newsletter | Add email address into the input field and click "join newsletter" button | Opens confirmation page | Pass
-| Newsletter confirmation | Click on "travel back" button | Opens homepage | Pass
-| Registration | Click on "submit" button | "Full Name" input field shows alert to fill in text | Pass
-| Registration | Fill in "Full Name" and click on "submit" button | "Email Address" input field shows alert to fill in text | Pass
-| Registration | Add text which is not email format and click submit button | Input field shows alert that text has to be in email format | Pass
-| Registration | Add email address into the input field and click submit button | "Phone Number" input field shows alert to fill in text | Pass
-| Registration | Fill in "Phone Number" and click on "submit" button | "Planet to Visit" radio buttons show alert to select one option | Fail
-| Registration | Select one of the radio options and click submit button | Opens confirmation page | Pass
-| Registration confirmation | Click on "travel back" button | Opens homepage | Pass
-| Footer | Click on instagram icon | Opens instagram website in new tab | Pass
-| Footer | Click on twitter icon | Opens twitter website in new tab | Pass
-| Footer | Click on facebook icon | Opens facebook website in new tab | Pass
+| Newsletter confirmation page | Click on "travel back" button | Opens homepage | Pass
+| Registration page | Click on "submit" button | "Full Name" input field shows error message | Pass
+| Registration page | Fill in "Full Name" and click on "submit" button | "Email Address" input field shows error message | Pass
+| Registration page | Add text which is not email format and click "submit" button | Input field shows error message | Pass
+| Registration page | Add email address into the input field and click "submit" button | "Phone Number" input field shows error message | Pass
+| Registration page | Fill in "Phone Number" and click on "submit" button | "Planet to Visit" radio buttons show error message | Fail
+| Registration page | Select one of the radio options and click "submit" button | Opens confirmation page | Pass
+| Registration confirmation page | Click on "travel back" button | Opens homepage | Pass
+| Footer | Click on Instagram icon | Opens Instagram's website in new tab | Pass
+| Footer | Click on Twitter icon | Opens Twitter's website in new tab | Pass
+| Footer | Click on Facebook icon | Opens Facebook's website in new tab | Pass
 
 ### Unfixed Bugs
-Currently there is no visible alert when a user wants to submit the registration form without selecting one of the radio options first.
+Currently there is no visible error message when a user wants to submit the registration form without selecting one of the radio options first. As the radio buttons were customized this usualy a default browser behaviour has been affected. Unfortunatily there was no time to dig deeper into this issue.
 
 ## Deployment
 ### Deploying the website to GitHub Pages:
